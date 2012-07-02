@@ -7,5 +7,9 @@ module Apir
       @endpoint = args["endpoint"]
       @method = args["method"]
     end
+
+    def call params=nil
+
+    end
   end
 end
