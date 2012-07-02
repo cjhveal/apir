@@ -1,0 +1,7 @@
+---
+name: Github
+base_url: http://api.github.com
+endpoints:
+  - name: events
+    endpoint: /events
+    method: GET
